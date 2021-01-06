@@ -13,5 +13,14 @@ Steps
 1. Create a Github Repo where you will store your docker image / Alternatively use an existing Github Repo.
 
 
+![create](images/1*uXkrbVgP0fX1kHQv2i8gsg.png)
+
+2. Create a github token in https://github.com/settings/tokens
 
 
+![token](images/1*-ZixXQc9JHISIIH3uaB3qg.png)
+
+
+3. Setup your github token with write:packages repo and optionally delete:packages if you need it to automatically delete packages
+
+![ww](images/1*NZzROynLn1XzfwTzVYaV2g.png)
