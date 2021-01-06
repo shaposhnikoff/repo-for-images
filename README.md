@@ -24,3 +24,22 @@ Steps
 3. Setup your github token with write:packages repo and optionally delete:packages if you need it to automatically delete packages
 
 ![ww](images/1*NZzROynLn1XzfwTzVYaV2g.png)
+
+
+4. Setup your .bashrc or .zshrc with environment variables or (export them manually)
+```
+export GITHUB_USER=kenichi-shibata
+export GITHUB_TOKEN_RWD=<your newly generated token>
+```
+
+Login to github’s docker registry
+```
+❯ echo $GITHUB_TOKEN_RWD | docker login https://docker.pkg.github.com -u ${GITHUB_USER} --password-stdin
+
+WARNING! Your password will be stored unencrypted in /Users/kenichishibata/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+```
+
