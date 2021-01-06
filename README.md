@@ -8,6 +8,10 @@ However setting up your first Docker Registry using Github Packages is not very 
 
 TLDR; Fix Docker Rate Limit issues by using Github Packages
 
+Steps
+
+1. Create a Github Repo where you will store your docker image / Alternatively use an existing Github Repo.
+
 
 
 
